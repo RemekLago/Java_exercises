@@ -3,7 +3,7 @@ package basics;
 public class Switch {
     public static void main(String[] args){
         
-    int a = 50;
+    int a = 55;
     switch(a)
     {
         case 50:
