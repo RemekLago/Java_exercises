@@ -16,8 +16,8 @@ public class Operators_relation {
 
         */
 
-        boolean a = 4 == 4;
-        if (4 == 4)
+        boolean a = 4 >= 4;
+        if (4 >= 4)
             System.out.println(a);
     }
     

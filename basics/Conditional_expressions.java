@@ -1,7 +1,5 @@
 package basics;
 
-import javax.lang.model.util.ElementScanner14;
-
 public class Conditional_expressions {
 
     public static void main(String[] args){
@@ -17,7 +15,7 @@ public class Conditional_expressions {
           
         String A = x % 2 == 0 ? "the number is even" : "the number is odd"
         System.out.println(A) 
-        
+
          */
     }
     
