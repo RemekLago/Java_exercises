@@ -1,13 +1,14 @@
 package object_oriented_programming.Monsters_inheritance;
 
-public class Zombie extends Monster
+public class Spider extends Monster
 {
-    public Zombie()
-    {
     
+    public Spider() 
+    {
+
     }
 
-    public Zombie(double speed, double live_point)
+    public Spider(double speed, double live_point) 
     {
         super(speed, live_point);
     }
@@ -15,7 +16,7 @@ public class Zombie extends Monster
     @Override
     void description() 
     {
- 
+        
     }
+    
 }
-

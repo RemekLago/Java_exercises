@@ -1,6 +1,6 @@
 package object_oriented_programming.Monsters_inheritance;
 
-public class Monster {
+public abstract class Monster {
     public double speed;
     public double live_point;
 
@@ -12,6 +12,9 @@ public class Monster {
         */
         System.out.println("This is the method attack from class Monster");
     }
+
+    abstract void description();
+
 
     public Monster()
     {

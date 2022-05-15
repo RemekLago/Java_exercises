@@ -12,4 +12,10 @@ public Skeleton(double speed, double live_point)
     {
         super(speed, live_point);
     }
+
+@Override
+void description()
+{
+    
+}
 }
